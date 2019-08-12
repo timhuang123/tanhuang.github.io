@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.8.1/css/zui.min.css">
     <script src="https://cdn.bootcss.com/zui/1.8.1/lib/jquery/jquery.js"></script>
     <script src="https://cdn.bootcss.com/zui/1.8.1/js/zui.min.js"></script>
-    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style1.css')}}">
 </head>
 <!--  来自淘宝券搜索：http://www.tbquan.cn  -->
 <body style="background-image: url({{url_for('static', filename = 'images/mountain.jpg')}})">
@@ -40,16 +40,19 @@
                 <input type="hidden" value="GB2312">    
                 <input type="hidden" value="GB2312">    
                 <INPUT TYPE="hidden" VALUE="zh-CN">   
+                <center>
                 <div style="float:left">    
                 <IMG SRC="http://www.google.com/logos/Logo_40wht.gif"　border="0" ALT="Google" height="20px">  
                 </div>  
                 <div style="float:left">  
                 <INPUT TYPE="text" name="q" size="18" maxlength="255"  value="">   
                 <INPUT type="submit" name="btnG" VALUE="Google搜索">    
-                </div><br><br>  
-                <div>  
-                <input type="radio" name="sitesearch" value="这里输入你的网站地址" checked>全球搜索    
-                <input type="radio" name="sitesearch" value="" > 本站搜索  
+                </div><br><br>
+                </centert>
+                
+                <div>
+                <input type="radio" name="sitesearch" value="www.zhaopian.info" checked>站内搜索    
+                <input type="radio" name="sitesearch" value="" > 全球搜索  
                 </div>   
                 </FORM> 
                 </center>
